@@ -16,14 +16,15 @@ public class MakingChange {
     public static long countWays(int target, int[] coins) {
         Arrays.sort(coins);
         long[] currentCounts = new long[target + 1];
-        long count = 0;
         int coinLen = coins.length;
+        int countsLen = currentCounts.length;
 
-        for (int i = 0; i < coinLen; i++){
-            count += findCount(coins, currentCounts, target, i, coins[i], coinLen);
+        // How can we do this within our recursive function s.t. it saves current counts as we're finding the values
+        for (int i = 1; i < countsLen; i++){
+            currentCounts[i] = findCount(coins, currentCounts, target, 0, 0, coinLen);
         }
 
-        return count;
+        return currentCounts[target];
     }
 
     public static long findCount(int[] coins, long[] currentCounts, int target, int currentIdx, int total, int coinLen) {
@@ -31,15 +32,19 @@ public class MakingChange {
             return 0;
         }
         else if (total == target) {
-            return currentCounts[target];
+            return 1;
         }
 
         long count = 0;
 
         for (int i = currentIdx; i < coinLen; i++){
-            // find some way to take advantage of the dynamic programming
+            // find some way to take advantage of the dynamic programming****
+
+            // If we've already seen a potential combination that we've found, skip recursing
+            // and set count to that value
             count += findCount(coins, currentCounts, target, i, (total + coins[i]), coinLen);
-            currentCounts[total + coins[i]] += count;
         }
+
+        return count;
     }
 }

@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Making Change Student Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MakingChangeTest.java" afterDir="false" />
+    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="first try part 1">
+      <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sshaw53"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ztblick/MakingChangeStudentCode",
+    "accountId": "5967f974-bad8-47c7-ace0-e743b994895e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2pg5bACtFaLiKI1MzOAjyjL8xMS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +50,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MakingChangeTest.executor": "Run",
+    "JUnit.MakingChangeTest.testCorrectSmall.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -52,7 +59,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MakingChangeTest.testCorrectLarge">
     <configuration name="MakingChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Making Change Student Code" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,8 +69,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MakingChangeTest.testCorrectLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Making Change Student Code" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MakingChangeTest" />
+      <option name="METHOD_NAME" value="testCorrectLarge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MakingChangeTest.testCorrectSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Making Change Student Code" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MakingChangeTest" />
+      <option name="METHOD_NAME" value="testCorrectSmall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MakingChangeTest.testCorrectLarge" />
+        <item itemvalue="JUnit.MakingChangeTest.testCorrectSmall" />
         <item itemvalue="JUnit.MakingChangeTest" />
       </list>
     </recent_temporary>
@@ -77,6 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733174949693</updated>
     </task>
+    <task id="LOCAL-00001" summary="first try part 1">
+      <option name="closed" value="true" />
+      <created>1738042832327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738042832327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first try part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try part 1" />
   </component>
 </project>
